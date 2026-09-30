@@ -14,13 +14,13 @@ A 3D-printed autonomous sailing surface vessel designed for marine data collecti
 - Autonomous mission planning
 
 ## Parts
-- 3D printed modular hull (keel, rudder, wing sail)
-- Raspberry Pi
-- Servos (for rudder and sail control)
-- GPS module
-- IMU / compass
-- Wind speed and direction sensor
-- Camera
-- Environmental sensors (water temp, air temp, salinity etc)
-- Battery
-- Cellular communications
+- [ ] 3D printed modular hull (keel, rudder, wing sail)
+- [ ] [Raspberry Pi 5 8GB](https://www.amazon.co.uk/Raspberry-Pi-SC1112-5-8GB/dp/B0CK2FCG1K/)
+- [ ] Servos (for rudder and sail control)
+- [x] [GPS module (USB GPS VK-162)](https://www.amazon.co.uk/dp/B0BRQGZ4QV?ref=ppx_yo2ov_dt_b_fed_asin_title)
+- [ ] IMU / compass
+- [ ] Wind speed and direction sensor
+- [ ] [Camera (USB)](https://www.ebay.co.uk/itm/277972112157) 
+- [ ] Environmental sensors (air temp, humidity, pressure etc)
+- [ ] Battery
+- [ ] Cellular communications
