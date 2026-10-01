@@ -16,13 +16,14 @@ A 3D-printed autonomous sailing surface vessel designed for marine data collecti
 ## Parts
 - [ ] 3D printed modular hull (keel, rudder, wing sail)
 - [ ] [Raspberry Pi 5 8GB](https://www.amazon.co.uk/Raspberry-Pi-SC1112-5-8GB/dp/B0CK2FCG1K/)
+- [ ] [Raspberry Pi Active Cooler](https://thepihut.com/products/active-cooler-for-raspberry-pi-5)
+- [ ] [Wind speed and direction sensor](https://www.amazon.co.uk/Ultrasonic-Direction-Sensor-Anemometer-Measurable/dp/B0H3613T5G)
+- [ ] [Camera (USB)](https://www.ebay.co.uk/itm/277972112157) 
+- [ ] [Environmental sensors + 9 axis IMU (air temp, humidity, pressure etc)](https://thepihut.com/products/raspberry-pi-sense-hat-astro-pi)
+- [ ] [Cellular communications + GPS](https://www.waveshare.com/a7670e-cat-1-gnss-hat.htm)
+- [ ] Battery
 - [ ] [Servos (for rudder and sail control)](https://www.amazon.co.uk/Miuzei-Digital-Waterproof-Aeroplane-Steering/dp/B0BZ4DFHRR)
 - [ ] [Rotary shaft seal](https://www.simplybearings.co.uk/products/20x45x10-tc?srsltid=AU7gw4Ub-dbjzfDZulb5RmWbxTQ5eFod-2TjultV7gOHWmD9A7vSdT5oCww)
 - [ ] Servo shaft extender / couple
-- [x] [GPS module (USB GPS VK-162)](https://www.amazon.co.uk/dp/B0BRQGZ4QV?ref=ppx_yo2ov_dt_b_fed_asin_title)
-- [ ] [IMU / compass](https://depz.ai/eu/product/imu-sensor-icm-20948-usb)
-- [ ] Wind speed and direction sensor
-- [ ] [Camera (USB)](https://www.ebay.co.uk/itm/277972112157) 
-- [ ] Environmental sensors (air temp, humidity, pressure etc)
-- [ ] Battery
-- [ ] Cellular communications
+- [ ] RS485 to usb
+
