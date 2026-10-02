@@ -1,5 +1,5 @@
 # Autonomous Surface Vessel (ASV) Project
-A 3D-printed autonomous sailing surface vessel designed for marine data collection and experimentation in autonomous navigation.
+A 3D-printed autonomous sailing surface vessel designed for marine data collection and experimentation in autonomous navigation. 
 
 ## Capabilities
 - Autonomous waypoint navigation
@@ -24,12 +24,12 @@ A 3D-printed autonomous sailing surface vessel designed for marine data collecti
 - [ ] [Cellular communications + GPS](https://www.waveshare.com/a7670e-cat-1-gnss-hat.htm)
 - [ ] [12V Worm Gear Motor with Encoder x2 (for rudder and sail control)](https://www.amazon.co.uk/Torque-Geared-Reduction-Encoder-Self-locking/dp/B07DFSP6BD)
 - [ ] [Motor Drivers x2](https://www.amazon.co.uk/Fasizi-BTS7960-Power-Driver-Module/dp/B09Z2FBCJ3)
-- [ ] [Underwater thruster](https://www.hobbywater.com/en-gb/products/td1-2-underwater-thruster-12v-hobbywater?variant=41007615836350)
-- [ ] [Battery](https://www.amazon.co.uk/ERYY-Voltmeter-Lightweight-Rechargeable-Phosphate/dp/B0F4R6XNWL)
+- [ ] [Underwater thruster](https://www.amazon.co.uk/Underwater-bi-Directional-Waterproof-Photography-Exploration/dp/B09BVKB3KD)
+- [ ] [Battery](https://www.amazon.co.uk/ULTRAMAX-Lithium-Battery-LiFePO4-Rechargeable/dp/B0GKYX8VXY)
+
 - [ ] Battery charger
 - [ ] Battery level reader
 - [ ] 12V to 5V USB-C puck
-- [ ] [Rotary shaft seal](https://www.simplybearings.co.uk/products/20x45x10-tc?srsltid=AU7gw4Ub-dbjzfDZulb5RmWbxTQ5eFod-2TjultV7gOHWmD9A7vSdT5oCww)
-- [ ] Servo shaft extender / couple
 - [ ] RS485 to usb
-
+- [ ] Rotary shaft seal
+- [ ] Servo shaft extender / couple for wing / rudder
