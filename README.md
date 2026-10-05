@@ -26,6 +26,7 @@ A 3D-printed autonomous sailing surface vessel designed for marine data collecti
 - [ ] [Motor Drivers x2](https://www.amazon.co.uk/Fasizi-BTS7960-Power-Driver-Module/dp/B09Z2FBCJ3)
 - [ ] [Underwater thruster](https://www.amazon.co.uk/Underwater-bi-Directional-Waterproof-Photography-Exploration/dp/B09BVKB3KD)
 - [ ] [Battery](https://www.amazon.co.uk/ULTRAMAX-Lithium-Battery-LiFePO4-Rechargeable/dp/B0GKYX8VXY)
+- [ ] [Keel Weights](https://www.claygame.co.uk/lead-shot-samples-pd378)
 
 - [ ] Battery charger
 - [ ] Battery level reader
