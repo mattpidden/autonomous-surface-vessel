@@ -17,13 +17,13 @@ A 3D-printed autonomous sailing surface vessel designed for marine data collecti
 
 ### Compute & control (£135.00)
 - [x] [Raspberry Pi 4 4GB](https://thepihut.com/products/raspberry-pi-4-model-b?variant=20064052740158) | ✓ £96.00 | 4GB is plenty for headless ROS 2 + light vision. 
-- [ ] [SanDisk High Endurance 64GB microSD](https://www.amazon.co.uk/SanDisk-Endurance-Monitoring-Dashcams-MicroSDXC/dp/B07P3D6Y5B) | £24 | Made for continuous writing, so it suits all-day data logging.
+- [x] [SanDisk High Endurance 64GB microSD](https://www.amazon.co.uk/SanDisk-Endurance-Monitoring-Dashcams-MicroSDXC/dp/B07P3D6Y5B) | £24 | Made for continuous writing, so it suits all-day data logging.
 - [x] [Pico](https://thepihut.com/products/pimoroni-pico-lipo-2) | ✓ £15.00 | Pimoroni Pico LiPo 2 (RP2350). USB-C, Qw/ST and SP/CE connectors.
 
 
 ### Navigation & comms (£88.60)
 - [x] [Waveshare A7670E Cat-1](https://thepihut.com/products/a7670e-lte-cat-1-hat-for-raspberry-pi-2g-gsm-gprs) | ✓ £28.80 | LTE telemetry.
-- [ ] [IoT data SIM](TODO) | ~£10 | Low-data telemetry SIM.
+- [x] [IoT data SIM](TODO) | ~£10 | Low-data telemetry SIM.
 - [x] [Adafruit BNO055 9-DoF IMU](https://thepihut.com/products/adafruit-9-dof-absolute-orientation-imu-fusion-breakout-bno055-stemma-qt-qwiic?variant=32209168597054&country=GB&currency=GBP) | ✓ £28.80 | Does sensor fusion on the chip and gives roll, pitch and turn rate
 - [x] [STEMMA QT Cable x2](https://thepihut.com/products/stemma-qt-qwiic-jst-sh-4-pin-cable-100mm-long) | ✓ £2.00
 - [x] [USB-C to USB-A cables x2](https://thepihut.com/products/usb-a-to-usb-c-cable-1m) for LTE hat and for Pi to Pico | ✓ £7.00
@@ -33,32 +33,33 @@ A 3D-printed autonomous sailing surface vessel designed for marine data collecti
 ### Vision (£39.60)
 - [x] [Raspberry Pi Camera Module 3 Wide](https://thepihut.com/products/raspberry-pi-camera-module-3) | ✓ £33.60 | CSI, 120° view, autofocus, HDR. Uses less power than USB and works with the ROS 2 `camera_ros` package.
 - [ ] [Clear Protectino Dome for camera](TODO) | ~£6
-- [ ] [Longer camera cable](https://thepihut.com/products/flex-cable-for-raspberry-pi-camera-or-display-18-457mm)
+- [x] [Longer camera cable](https://thepihut.com/products/flex-cable-for-raspberry-pi-camera-or-display-18-457mm)
 
 
 ### Environmental sensors (£123.20)
 - [x] [Pressure Humidity Temperature PHT Sensor](https://thepihut.com/products/adafruit-ms8607-pressure-humidity-temperature-pht-sensor) | ✓ £14.40 | Air temp/humidity/pressure. Mount it on deck in a vented, shaded housing. Can be dasiy changed into IMU sensor.
-- [ ] [Wind Speed & Direction Transmiter](https://www.amazon.co.uk/Ultrasonic-Direction-Sensor-Anemometer-Measurable/dp/B0H3613T5G) | £83
-- [ ] [RS485 to TTL adapter](https://www.amazon.co.uk/Converter-Direction-Compatible-Industrial-Automation/dp/B0GVQRYVNQ) | £5.4 | Check it supports 3.3V logic.
-- [ ] [TTL to 8pin cable](https://thepihut.com/products/8-pin-jst-sh-cable-sp-ce?variant=53798448431489) | ✓ £1.80 | Pick the JST-SH to DuPont version.
+- [x] [Wind Speed & Direction Transmiter](https://www.amazon.co.uk/Ultrasonic-Direction-Sensor-Anemometer-Measurable/dp/B0H3613T5G) | £83
+- [x] [RS485 to TTL adapter](https://www.amazon.co.uk/Converter-Direction-Compatible-Industrial-Automation/dp/B0GVQRYVNQ) | £5.4 | Check it supports 3.3V logic.
+- [x] [TTL to 8pin cable](https://thepihut.com/products/8-pin-jst-sh-cable-sp-ce?variant=53798448431489) | ✓ £1.80 | Pick the JST-SH to DuPont version.
 
 
 ### Actuation (£102.40)
-- [ ] [12V Worm Gear Motor with Encoders x2](https://www.amazon.co.uk/Torque-Geared-Reduction-Encoder-Self-locking/dp/B07DG9QYPY) 30RPM for rudder and 10RPM for wing sail | £27 (£13.8 each)
-- [ ] [Motor drivers](https://thepihut.com/products/dc-motor-driver-module-for-raspberry-pi-pico) | ✓ £14.40
-- [ ] [Power adapter for driver](https://thepihut.com/products/20w-adjustable-dc-dc-buck-converter-with-digital-display) £4.70
-- [ ] [Thruster motor](https://www.amazon.co.uk/ApisQueen-U2-Bi-Directional-ESC-Screw-Propellers/dp/B0C74CMXR9) | £62
+- [x] [12V Worm Gear Motor with Encoders x2](https://www.amazon.co.uk/Torque-Geared-Reduction-Encoder-Self-locking/dp/B07DG9QYPY) 30RPM for rudder and 10RPM for wing sail | £27 (£13.8 each)
+- [x] [Motor driver](https://thepihut.com/products/dc-motor-driver-module-for-raspberry-pi-pico) | ✓ £14.40
+- [x] [Power adapter for driver](https://thepihut.com/products/dc-dc-power-module-25w) £8.20
+- [x] [Thruster motor](https://www.amazon.co.uk/ApisQueen-U2-Bi-Directional-ESC-Screw-Propellers/dp/B0C74CMXR9) | £62
 
 
 ### Power (£92.00)
-- [ ] [12V 12Ah LiFePO4 battery](https://www.amazon.co.uk/DCHOUSE-Trolling-Household-Appliances-Emergency/dp/B0CNP6Q28P) | £41.5 | 
-- [ ] [Battery Charger](https://www.amazon.co.uk/ECO-WORTHY-Lithium-LiFePO4-Automatic-Maintainer-black/dp/B0DGL4HKS6?th=1) | 36gbp
-- [ ] [Step down 12V to 5V for Pi](https://www.amazon.co.uk/DC-DC-Step-Converter-Type-C-Interface-as-shown-detailed-picture/dp/B0H7S63FXC) | £9
-- [ ] [On/off switch](https://www.amazon.co.uk/Joinfworld-Waterproof-Toggle-Mounting-Automotive/dp/B0G3982R8M) 10gbp
+- [x] [12V 12Ah LiFePO4 battery](https://www.amazon.co.uk/DCHOUSE-Trolling-Household-Appliances-Emergency/dp/B0CNP6Q28P) | £41.5 | 
+- [x] [Battery Charger](https://www.amazon.co.uk/ECO-WORTHY-Lithium-LiFePO4-Automatic-Maintainer-black/dp/B0DGL4HKS6?th=1) | 36gbp
+- [x] [Step down 12V to 5V for Pi](https://www.amazon.co.uk/DC-DC-Step-Converter-Type-C-Interface-as-shown-detailed-picture/dp/B0H7S63FXC) | £9
+- [x] [On/off switch](https://www.amazon.co.uk/Joinfworld-Waterproof-Toggle-Mounting-Automotive/dp/B0G3982R8M) 10gbp
 
 
 ### Structure (£18.00)
 - [ ] [Keel weights (lead)](https://www.claygame.co.uk/lead-shot-samples-pd378) | £18 for 2kg
+- [ ] [2KG ABA Filament](https://uk.store.bambulab.com/products/abs-filament?id=41905581916220) £30
 
 
 
@@ -90,3 +91,15 @@ A 12Ah LiFePO4 holds ~154Wh (~138Wh usable), which gives **~21h with no thruster
 - Drives the rudder and sail worm gears to position using their encoders. Both are centred by hand at startup.
 - Steers to the course from the Pi and trims the sail to the wind
 - Sends the thruster ESC its PWM signal
+
+## Assembly
+- 3D print the hull in 3x1 sections with conectors
+- Use acertone to bond together, then coat in epoxy
+- Same for keel, which bolts into hull from inside
+- Same for wing sail
+- Use heat sets into the hull for modular plate system
+- Design modular plate system to house all electronics
+- Grease stuffed tubes for rudder and sail shafts
+- Pole bolted to transom for Wind sensor, celluar arial, and IMU/PHT mounting 
+- Lid with rubber seal and bolted down?
+- On/off switch mounted on deck aft of sail
