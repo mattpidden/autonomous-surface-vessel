@@ -60,6 +60,7 @@ A 3D-printed autonomous sailing surface vessel designed for marine data collecti
 ### Structure (£18.00)
 - [ ] [Keel weights (lead)](https://www.claygame.co.uk/lead-shot-samples-pd378) | £18 for 2kg
 - [ ] [2KG ABA Filament](https://uk.store.bambulab.com/products/abs-filament?id=41905581916220) £30
+- [ ] [M6 x 40mm bolts, nuts, washer x2](TODO) for connecting keel to hull
 
 
 
