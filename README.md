@@ -61,6 +61,11 @@ A 3D-printed autonomous sailing surface vessel designed for marine data collecti
 - [ ] [Keel weights (lead)](https://www.claygame.co.uk/lead-shot-samples-pd378) | £18 for 2kg
 - [ ] [2KG ABA Filament](https://uk.store.bambulab.com/products/abs-filament?id=41905581916220) £30
 - [ ] [M6 x 40mm bolts, nuts, washer x2](TODO) for connecting keel to hull
+- [ ] [M3 x 20mm x4](TODO) for thruster to hull
+- [ ] [M3 x 6mm x50](TODO) for worm gear adapter
+- [ ] [6mm to 6mm shaft coupling](https://www.amazon.co.uk/gp/product/B0FN79LKCG)
+- [ ] [Shaft Guide 6x200mm](https://www.amazon.co.uk/gp/product/B0GRTVF1KK)
+- [ ] [M3x5mmx5mm heat inserts](https://www.amazon.co.uk/gp/product/B0FMX98F2K)
 
 
 
