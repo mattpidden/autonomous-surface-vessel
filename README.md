@@ -55,6 +55,8 @@ A 3D-printed autonomous sailing surface vessel designed for marine data collecti
 - [x] [Battery Charger](https://www.amazon.co.uk/ECO-WORTHY-Lithium-LiFePO4-Automatic-Maintainer-black/dp/B0DGL4HKS6?th=1) | 36gbp
 - [x] [Step down 12V to 5V for Pi](https://www.amazon.co.uk/DC-DC-Step-Converter-Type-C-Interface-as-shown-detailed-picture/dp/B0H7S63FXC) | £9
 - [x] [On/off switch](https://www.amazon.co.uk/Joinfworld-Waterproof-Toggle-Mounting-Automotive/dp/B0G3982R8M) 10gbp
+- [ ] [12V Fuse box distribution box](https://www.amazon.co.uk/gp/product/B08HYD3JL7)
+- [ ] [Tinned copper ring terminals](TODO)
 
 
 ### Structure (£18.00)
