@@ -55,6 +55,7 @@ A 3D-printed autonomous sailing surface vessel designed for marine data collecti
 - [x] [Battery Charger](https://www.amazon.co.uk/ECO-WORTHY-Lithium-LiFePO4-Automatic-Maintainer-black/dp/B0DGL4HKS6?th=1) | 36gbp
 - [x] [Step down 12V to 5V for Pi](https://www.amazon.co.uk/DC-DC-Step-Converter-Type-C-Interface-as-shown-detailed-picture/dp/B0H7S63FXC) | £9
 - [x] [On/off switch](https://www.amazon.co.uk/Joinfworld-Waterproof-Toggle-Mounting-Automotive/dp/B0G3982R8M) 10gbp
+- [ ] [Adafruit INA238 power monitor](https://thepihut.com/products/adafruit-ina238-dc-current-voltage-power-monitor) | ✓ £10.60 | Battery voltage + current over I2C, for state of charge and a ROS `BatteryState` topic. Wire it in series on battery + after the on/off switch so it measures everything. Daisy-chains onto the IMU/PHT Qw/ST chain, but solder its A0 jumper to move it to address 0x41 (default 0x40 clashes with the PHT sensor). Rated 10A, worst case on the boat is ~9.5A.
 - [ ] [12V Fuse box distribution box](https://www.amazon.co.uk/gp/product/B08HYD3JL7)
 - [ ] [Tinned copper ring terminals](TODO)
 
