@@ -3,7 +3,7 @@
 A 3D-printed autonomous boat for coastal data collection, running **ROS 2** on a Raspberry Pi with a Pico for real-time control. V1 is motor-driven; a wing sail follows in V2.
 
 <p align="center">
-  <img src="docs/images/cad-hero.jpg" alt="CAD render of the hull and keel" width="720">
+  <img src="docs/images/render-water.jpg" alt="Render of the finished boat in orange ABS, floating at its estimated waterline" width="720">
 </p>
 
 | | |
@@ -41,8 +41,14 @@ flowchart LR
 
 ## Development log
 
-### Sep 2026 · Concept and parts
-Chose the hardware and sized the battery from a power budget. → [Parts list](docs/parts-list.md)
+### Oct 2026 · Research, parts and system design
+Researched the hardware, planned the system architecture, and sized the battery from a power budget. → [Parts list](docs/parts-list.md)
+
+<p align="center">
+  <img src="docs/images/parts-thruster.jpg" alt="ApisQueen U2 Mini thruster" width="32%">
+  <img src="docs/images/parts-battery.jpg" alt="12.8 V 12 Ah LiFePO4 battery" width="32%"><br>
+  <sub>The thruster and the 12.8 V 12 Ah LiFePO4 battery</sub>
+</p>
 
 ### Oct 2026 · Hull shape iterations
 Printed scale models and tested each for stability, ending in a scow bow for stability and internal space.
@@ -67,8 +73,23 @@ Designed the bolted keel joint, rudder, and the thruster, motor and battery moun
 ### Oct 2026 · Electronics bring-up
 Set up ROS 2 on the Pi and MicroPython on the Pico, and wrote [IMU](code/pico/bno055.py) and [PHT](code/pico/ms8607.py) drivers from the datasheets. → [Pi setup](docs/pi-setup.md) · [Pico setup](docs/pico-setup.md)
 
+<p align="center">
+  <img src="docs/images/soldered-pico-headers.jpg" alt="Hand-soldered headers on the Pico LiPo 2, seated on the motor driver board" width="320"><br>
+  <sub>Hand-soldered headers on the Pico LiPo 2, seated on the motor driver board</sub>
+</p>
+
 ### Nov 2026 · Hull top and first prints
 Finalised dimensions, added the hatch and section joints, and printed the bow and keel.
+
+<p align="center">
+  <img src="docs/images/print-parts.jpg" alt="The printed parts as they sit on the build plate: bow, middle section, keel and dowels" width="720">
+</p>
+
+| Printer | Material | Nozzle / bed | Layer | Walls / infill | Supports |
+|---|---|---|---|---|---|
+| Bambu P1S | ABS | 260 °C / 100 °C | 0.2 mm | 2 / 15 % grid | Tree |
+
+Full settings and why: [docs/printing.md](docs/printing.md)
 
 <p align="center">
   <img src="docs/images/bow-timelapse.gif" alt="Timelapse of the bow section printing" width="48%">
@@ -103,4 +124,4 @@ One or two sentences.
 
 ## Docs
 
-[Parts list & power budget](docs/parts-list.md) · [Software stack](docs/software.md) · [Assembly notes](docs/assembly.md) · [Pi setup](docs/pi-setup.md) · [Pico setup](docs/pico-setup.md)
+[Parts list & power budget](docs/parts-list.md) · [Software stack](docs/software.md) · [Printing](docs/printing.md) · [Assembly notes](docs/assembly.md) · [Pi setup](docs/pi-setup.md) · [Pico setup](docs/pico-setup.md)
